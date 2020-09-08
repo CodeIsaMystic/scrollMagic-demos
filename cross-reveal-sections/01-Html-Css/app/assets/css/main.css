@@ -139,6 +139,16 @@ p {
 #slide04 .img {
   background-image: url(../img/img_macbook02.png);}
 
+#slide02 .pin-wrapper,
+#slide03 .pin-wrapper,
+#slide04 .pin-wrapper {
+    transform: translateY(-100%);
+}
+.scrollmagic-pin-spacer {
+    position: absolute !important;
+    clip: rect(auto, auto, auto, auto);
+}
+
 /* =Footer */
 .footer-container {
     text-align: center;
