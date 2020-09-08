@@ -28,17 +28,17 @@ $(document).ready(function(){
    const pinScene03 = new ScrollMagic.Scene({
     triggerElement: '#slide02',
     triggerHook: 0,
-    duration: '300%'
+    duration: '200%'
   })
   .setPin('#slide03 .pin-wrapper')
   .addTo(controller)
   ;
 
-   //  Scene 3 - pin the fifth section
+   //  Scene 4 - pin the fifth section
    const pinScene04 = new ScrollMagic.Scene({
     triggerElement: '#slide03',
     triggerHook: 0,
-    duration: '400%'
+    duration: '100%'
   })
   .setPin('#slide04 .pin-wrapper')
   .addTo(controller)
